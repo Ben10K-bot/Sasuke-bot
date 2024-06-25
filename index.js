@@ -8,12 +8,12 @@ import cfonts from "cfonts";
 import chalk from "chalk";
 import { createInterface } from "readline";
 import yargs from "yargs";
-const port = process.env.PORT || 3000;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
 const { name, author } = require(join(__dirname, "./package.json"));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
+const port = process.env.PORT || 4000;
 
 say(' Sasuke & Ben 10\nBot\nMD', {
 font: 'chrome',
