@@ -121,9 +121,25 @@ if (/^😂|ههههههه|🤣$/i.test(m.text) ) { //sem prefixo
 } 
 
 if (/^ساسوكي|ساسكي|ساسوكى$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` نعم يا روح ساسكي 🥲❤️`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` نعم يا روح ساسكي 🥺❤`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
 
 }
+
+if (/^صباح الخير$/i.test(m.text) ) { //sem prefixo 
+ conn.reply(m.chat, `صباح النور يا قلبي`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+
+} 
+
+if (/^مساء الخير$/i.test(m.text) ) { //sem prefixo 
+conn.reply(m.chat, `مساء النور يا قلبي`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+
+} 
+
+    if (/^الحمد لله$/i.test(m.text) ) { //sem prefixo 
+     conn.reply(m.chat, `دوم يا رب`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+
+} 
+
  if (/^هات طبق$/i.test(m.text) ) { //sem prefixo 
  conn.reply(m.chat, ` روح جيب لنفسك 🥲❤️`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
 
